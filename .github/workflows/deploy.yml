@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master # Change to 'main' if your default branch is 'main'
+      - main # Change to 'main' if your default branch is 'main'
   schedule:
     - cron: "0 12 * * 1" # see https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events
 jobs:

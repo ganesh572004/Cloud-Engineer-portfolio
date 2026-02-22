@@ -1,6 +1,6 @@
 {
-  "homepage": "https://developerfolio.js.org/",
-  "name": "developerfolio",
+  "homepage": "https://ganeshkorada.dev/",
+  "name": "ganeshkorada-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,7 +24,7 @@
     "predeploy": "npm run build",
     "start": "node fetch.js && react-scripts start",
     "build": "node fetch.js && react-scripts build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -b gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
@@ -54,5 +54,17 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "dotenv": "^8.6.0",
     "prettier": "^2.3.1"
+  },
+  "description": "<p align=\"center\">   <kbd>     <!-- Replace with your own screenshot or GIF -->     <img src=\"public/Ganesh_Korada_Resume.png\" alt=\"Portfolio Screenshot\" width=\"600\" />   </kbd> </p>",
+  "main": "fetch.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganesh572004/Cloud-Engineer-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ganesh572004/Cloud-Engineer-portfolio/issues"
   }
 }

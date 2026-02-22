@@ -1,10 +1,8 @@
 import React, {useContext} from "react";
 import "./Contact.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import {illustration, contactInfo} from "../../portfolio";
+import {contactInfo} from "../../portfolio";
 import {Fade} from "react-reveal";
-import email from "../../assets/lottie/email";
-import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Contact() {
@@ -55,7 +53,7 @@ export default function Contact() {
           <div className="contact-image-div">
             <img
               alt="Ganesh Korada profile"
-              src={require("../../assets/images/profile.jpg")}
+              src={require("../../assets/images/profile.png")}
               style={{width: "100%", maxWidth: "320px", borderRadius: "16px"}}
             />
           </div>
